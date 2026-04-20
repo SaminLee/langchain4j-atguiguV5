@@ -37,6 +37,6 @@ public class HelloLangChain4JController
 
     public void test1(String question)
     {
-
+        System.out.println("调用大模型回复: ");
     }
 }
