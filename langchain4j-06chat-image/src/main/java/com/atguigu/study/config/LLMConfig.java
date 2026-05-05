@@ -20,7 +20,7 @@ public class LLMConfig
         return OpenAiChatModel.builder()
                 .apiKey(System.getenv("aliQwen-api"))
                 //qwen-vl-max 是一个多模态大模型，支持图片和文本的结合输入，适用于视觉-语言任务。
-                .modelName("qwen-vl-max")
+                .modelName("qwen3.6-plus")
                 .baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")
                 .build();
     }
